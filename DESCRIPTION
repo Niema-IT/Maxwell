@@ -1,0 +1,19 @@
+Package: Maxwell
+Type: Package
+Title: Simulation des equations de Maxwell pour les télécommunications
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Gueah", "Blessing",
+      email = "bgueah@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Fonctions de calcul de la propagation d'ondes électromagnetiques( onde plane, milieux diélectriques et conducteurs) et un bilan de liaison radio fondé sur la perte en espace libre.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
